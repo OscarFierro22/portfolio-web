@@ -1,0 +1,21 @@
+# Archivos temporales de sistemas operativos y editores
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Dependencias y reportes locales (no usadas por el sitio)
+node_modules/
+coverage/
+playwright-report/
+test-results/
+.env
+.env.*
+!.env.example
+
+# Logs y archivos comprimidos temporales
+*.log
+*.rar
+*.zip

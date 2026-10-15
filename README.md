@@ -1,4 +1,17 @@
-# Portafolio web — Oscar Fierro
+<div align="center">
+
+# 🌐 Portafolio Web · Oscar Fierro
+
+**Ingeniería de Software · Desarrollo web · Backend · Interés en DevOps**
+
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](index.html)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css&logoColor=white)](styles.css)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](script.js)
+[![GitHub Actions](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)](.github/workflows/ci.yml)
+
+[📸 Vista previa](#-vista-previa) · [✨ Funcionalidades](#funcionalidades) · [🚀 Ejecutar](#instalación-y-ejecución-local) · [🧪 Pruebas](#pruebas-e-integración-continua)
+
+</div>
 
 **Sitio personal de un estudiante de Ingeniería de Software** para presentar habilidades, proyectos académicos y formas de contacto. Orientado a la búsqueda de **pasantías en desarrollo de software, backend e infraestructura TI**, con interés en aprender **DevOps**.
 
@@ -6,7 +19,7 @@
 
 > **Estado:** aplicación estática preparada para publicarse. Este repositorio no presupone que la web esté desplegada. El formulario **no envía correos desde un servidor**: prepara un mensaje en la aplicación de correo del visitante.
 
-## Vista previa
+## 📸 Vista previa
 
 Las siguientes son **capturas reales proporcionadas por el autor**, en modo oscuro, para documentar el aspecto actual de la página.
 
@@ -28,7 +41,7 @@ Las siguientes son **capturas reales proporcionadas por el autor**, en modo oscu
 
 </details>
 
-**[Ver la galería completa y las descripciones de las capturas](docs/CAPTURAS.md)** (incluye una captura adicional de vista móvil).
+**[Ver galería completa y descripción de las capturas](docs/CAPTURAS.md)**.
 
 ## Funcionalidades
 
@@ -69,7 +82,7 @@ También es posible abrir `index.html` directamente, aunque un servidor local re
 ## Estructura del proyecto
 
 ```text
-Portafolio_OscarFierro_Documentado/
+portfolio-web/
 ├── index.html                        # Estructura y contenido
 ├── styles.css                        # Estilos y diseño adaptable
 ├── script.js                         # Interacciones
@@ -81,15 +94,11 @@ Portafolio_OscarFierro_Documentado/
     ├── ARQUITECTURA.md               # Componentes y decisiones técnicas
     ├── GUIA_USO.md                   # Cómo utilizar la web
     ├── CAPTURAS.md                   # Galería y explicación visual
-    ├── DESPLIEGUE.md                 # Publicación en GitHub Pages
-    ├── ACTUALIZAR_GITHUB.md          # Subida y actualizaciones de archivos
     ├── MEJORAS.md                    # Cambios y futuras tareas
     ├── capturas/
     │   ├── inicio.png                # Captura suministrada: portada
     │   ├── habilidades.png           # Captura suministrada: habilidades
-    │   └── contacto.png              # Captura suministrada: contacto
-    ├── vista-previa.png              # Captura adicional previa
-    └── vista-movil.png               # Captura de vista móvil
+        └── contacto.png             # Captura suministrada: contacto
 ```
 
 ## Proyectos presentados
@@ -114,13 +123,12 @@ node --test tests/*.test.mjs
 
 El flujo de GitHub Actions ejecuta esas mismas verificaciones cuando se hace `push` a `main` o se abre un `pull request`. Se comprueba la **estructura del proyecto y la documentación**, no se garantiza cobertura completa de interfaz ni pruebas de extremo a extremo.
 
-## Publicación y mantenimiento
+## Documentación del proyecto
 
-- **[Publicar en GitHub Pages](docs/DESPLIEGUE.md)**: subir los archivos y activar Pages en la rama principal.
-- **[Actualizar el repositorio](docs/ACTUALIZAR_GITHUB.md)**: cómo añadir estas capturas y nuevos cambios usando Git o la web de GitHub.
-- **[Arquitectura técnica](docs/ARQUITECTURA.md)**: responsabilidades y decisiones del proyecto.
-- **[Guía de uso](docs/GUIA_USO.md)**: recorrido por la interfaz.
-- **[Registro de mejoras](docs/MEJORAS.md)**: cambios efectuados y mejoras pendientes.
+- **[Arquitectura técnica](docs/ARQUITECTURA.md)**: componentes, responsabilidades y decisiones de diseño.
+- **[Guía de uso](docs/GUIA_USO.md)**: recorrido por las secciones y sus interacciones.
+- **[Galería de capturas](docs/CAPTURAS.md)**: evidencia visual de la interfaz.
+- **[Mejoras y trabajo pendiente](docs/MEJORAS.md)**: cambios realizados y próximos pasos.
 
 ## Privacidad y limitaciones
 
